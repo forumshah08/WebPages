@@ -1,0 +1,73 @@
+body{
+	box-sizing: border-box;
+	background-color: beige;
+}
+.container{
+	width: 100%;
+	border: 2px solid black;
+	font-weight: bold;
+	background-image: url('file:///C:/Users/FORUM/Desktop/html%20programs/Picture2.jpg');
+	}
+header{
+	text-align: center;
+	color: black;
+	box-sizing: border-box;
+}
+.inputbox {
+	width: 50%;
+	text-align : center;
+	color: black;
+	font-size: 20px;
+	display: block;
+	margin-left: 25%;
+
+}
+.labels {
+	font-size: 25px;
+	display: block;
+	margin-left: 25%;
+	margin-bottom: 5px;
+}
+
+.radio_button{
+	display: inline;
+	margin-left: 25%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 20px;
+	height: 20px;
+}
+.dropdown{
+	margin-left: 25%;
+	width: 50%;
+	font-size: 20px;
+}
+.check_box {
+	display: inline;
+	margin-left: 25%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 20px;
+	height: 20px;
+	font-weight: bold;
+}
+.fontsize{
+	font-size: 22px;
+	margin-left: 2px;
+}
+.buttons {
+	width: 50%;
+	margin-left: 25%;
+	font-size: 20px;
+	padding: 10px;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+	background-color: white;
+	border : 1px solid black;
+}
+.buttons:hover{
+	opacity: 1;
+	background-color: beige;
+	border : 2px solid black;
+	font-weight: bold;
+}

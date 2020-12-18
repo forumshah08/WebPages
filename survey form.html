@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Smart Phone Survey</title>
+	<link rel="stylesheet" type="text/css" href="surveycss.css">
+
+</head>
+<body>
+<div class="container">
+	<header>
+		<h1>Smart Phone Survey Form</h1>
+		<p>Thank you for taking out time to fill up the survey form.</p>
+	</header>
+	<form class="form_tag">
+		<div>
+			<label class="labels">Name</label>
+			
+			<input type="text" name="Name" class="inputbox" required>
+		</div>
+		<br>
+		<div>
+			<label class="labels">Gender</label>
+			<label class="fontsize" >
+			<input type="radio" name="Gender" value="Male" class="radio_button">Male 
+			<br>
+			<input type="radio" name="Gender" value="Female" class="radio_button" required>Female
+			<br>
+			<input type="radio" name="Gender" value="Other" class="radio_button">Other
+		</label>
+		</div>
+		<br>
+		<div>
+			<label class="labels">Age-Group</label>
+			<select class="dropdown" required>
+				<option>Between 15-30 years</option>
+				<option>Between 31-45 years</option>
+				<option>Between 45-60 years</option>
+				<option>Above 60 years</option>
+			</select>
+		</div>
+		<br><br>
+		<div>
+			<label class="labels">Your Current Role</label>
+			<select class="dropdown" required>
+				<option>Student</option>
+				<option>Employee</option>
+				<option>Businessman</option>
+				<option>Housewife</option>
+			</select>
+		</div>
+		<br><br>
+		<div>
+			<label class="labels">How many Smartphones do you own?</label>
+			<input type="number" name="no of Smartphones" class="inputbox" min="1" max="5" required>
+			
+		</div>
+		<br><br>
+		<div>
+			<label class="labels">Which Operating System would you prefer?</label>
+			<label class="fontsize">
+			<input type="radio" name="Operating System" class="radio_button" value="android" required>Android<br>
+			<input type="radio" name="Operating System" class="radio_button" value="Ios">IOS <br>
+			<input type="radio" name="Operating System" class="radio_button" value="other">Other<br>
+			</label>
+		</div>
+		<br><br>
+		<div>
+			<label class="labels">Which Features would you look for while buying a Smartphone?</label>
+			<label class="fontsize">
+			<input type="checkbox" name="features" class="check_box">Full  Screen  Display <br>
+			<input type="checkbox" name="features" class="check_box">Longer  Battery  Life <br>
+			<input type="checkbox" name="features" class="check_box">Wireless  Charging <br>
+			<input type="checkbox" name="features" class="check_box">More  Internal  Storage <br>
+			<input type="checkbox" name="features" class="check_box"> Improved  Camera  Quality 
+			</label>
+		</div>
+		<br><br>
+		<input type="submit" name="Submit" class="buttons">
+	</form>
+</div>
+</body>
+</html>
